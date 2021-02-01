@@ -1,0 +1,470 @@
+@font-face {
+    font-family: Circular;
+    src: url("https://sp-bootstrap.spotifycdn.com/8.12.5/fonts/circular-book.woff2") format("woff2"), url("https://sp-bootstrap.spotifycdn.com/8.12.5/fonts/circular-book.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Circular;
+    src: url("https://sp-bootstrap.spotifycdn.com/8.12.5/fonts/circular-bold.woff2") format("woff2"), url("https://sp-bootstrap.spotifycdn.com/8.12.5/fonts/circular-bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Circular;
+    src: url("https://sp-bootstrap.spotifycdn.com/8.12.5/fonts/circular-black.woff2") format("woff2"), url("https://sp-bootstrap.spotifycdn.com/8.12.5/fonts/circular-black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@keyframes logoPlayAnimation {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-8px); }
+    100% { transform: translateY(0); }
+}
+body {
+    margin: 0;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+    font-style: normal;
+}
+h2 {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+h3 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 900;
+    margin: .5em 0 1em
+}
+.header {
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    z-index: 3;
+}
+.logo {
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    padding-top: 8px;
+    padding-left: 190px;
+    margin: 0;
+    z-index: 3;
+}
+.nav {
+    height: 80px;
+    padding-right: 20px;
+    padding-left: 1100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ .nav a , .nav div {
+     text-align: center;
+     color: #eeeeee;
+     padding: 15px;
+     font-size: 16px;
+     line-height: 24px;
+     font-weight: 700;
+     text-decoration: none;
+}
+.nav a:hover{
+    color: #2d46b9;
+}
+.profilePhoto {
+    background-image: url(../image/photo_2020-01-06_14-10-35.jpg);
+    background-size: cover;
+    border-radius: 100px;
+    height: 20px;
+    width: 20px;
+}
+.main {
+    height:800px ;
+    background: url(../image/gradientyy.jpg) no-repeat  ;
+    background-size: cover;
+    position: relative;
+}
+.titleMain {
+    display: flex;
+    padding-top: 145px;
+    justify-content: center;
+    padding-left: 200px;
+}
+.titleText {
+    width: 370px;
+}
+.recently {
+    margin-top: 40px;
+    color: #eeeeee;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+}
+.jump{
+    color: #eeeeee;
+    font-size: 80px;
+    line-height: 92px;
+    font-weight: 900;
+}
+.pick {
+    color: #eeeeee;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 900;
+}
+.buttonPlay {
+    margin-top: 40px;
+    width: 280px;
+    height: 50px;
+    background-color: #1db954;
+    border-radius: 150px;
+    text-align: center;
+}
+.buttonText{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.buttonText a{
+    color: #eeeeee;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 2px;
+    height: 100%;
+}
+.buttonPlay:hover {
+    background-color: #1cce5f;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.titleAlbum {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+.tAlbum1,.tAlbum2,.tAlbum3,.tAlbum4,.tAlbum5,.tAlbum6 {
+    width: 240px;
+    height: 240px;
+    display: flex;
+    margin: 7px;
+    background-color: rgba(0, 0, 0, 0.47);
+}
+.tAlbum1{
+    background-image: url("../image/NormanFuckingRockwell_Artwork.jpg");
+    background-size: cover;
+}
+.overl {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.overlText {
+    color: white;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    opacity: 0;
+    padding-top: 60px;
+}
+.song{
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+}
+.artist{
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 400;
+    color:  #919496;
+}
+.tAlbum1:hover .overl, .tAlbum2:hover .overl, .tAlbum3:hover .overl, .tAlbum4:hover .overl, .tAlbum5:hover .overl, .tAlbum6:hover .overl{
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.tAlbum1:hover .overlText, .tAlbum2:hover .overlText, .tAlbum3:hover .overlText, .tAlbum4:hover .overlText,.tAlbum5:hover .overlText,.tAlbum6:hover .overlText{
+    opacity: 1;
+}
+.tAlbum2{
+    background-image: url("../image/11377248_1060854280611036_7596316613024008793_n-1-696x696.jpg");
+    background-size: cover;
+}
+.tAlbum3{
+    background-image: url("../image/R-14970187-1586028941-7305.jpeg.jpg");
+    background-size: cover;
+}
+.tAlbum4{
+    background-image: url("../image/kodaline.jpg");
+    background-size: cover;
+}
+.tAlbum5{
+    background-image: url("../image/neib.jpg");
+    background-size: cover;
+}
+.tAlbum6{
+    background-image: url("../image/hoover.jpg");
+    background-size: cover;
+}
+.icon {
+    animation-name:logoPlayAnimation;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    padding-top: 30px;
+    padding-left: 950px;
+}
+.music{
+    height:600px ;
+    background: linear-gradient( to right , #2c5d91,#46407a, #562f6c);
+}
+.title {
+    display: flex;
+    color: #eeeeee;
+    justify-content: center;
+    padding-top: 2.5em;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+}
+.box1 {
+    display: flex;
+    width: 490px;
+    height: 240px;
+    background-color: rgba(255, 255, 255, 0.05);
+    margin: 50px;
+    position: relative;
+}
+.box2 {
+    display: flex;
+    width: 490px;
+    height: 240px;
+    background-color: rgba(255, 255, 255, 0.05);
+    margin: 50px;
+    position: relative;
+}
+.Top {
+    width: 85px;
+    height: 25px;
+    background-color: rgba(30, 50, 100, 0.27);
+    position: absolute;
+    top: 20px;
+    left: -10px;
+    margin: auto 0;
+}
+.tA ,.tT {
+    color:#ffffff;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    height: 100%;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.labelName{
+    display: flex;
+    width: 295px;
+    height: auto;
+    padding: 10px;
+    background-color: #1e3264;
+    position: absolute;
+    left: -25px;
+    top: 65px;
+    z-index: 2;
+}
+.Artist,.Artist2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 900;
+    color: #ffffff;
+    margin: auto 0;
+    padding-left: 30px;
+}
+.photoArtist,.photoArtist2 {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(109, 0, 128, 0.34);
+    position: absolute;
+    left: 254px;
+    bottom: 23px;
+    z-index: 1;
+}
+.photoArtist{
+    background-image: url("../image/1574563131_a751e0b304955efe5fe73c8d46c761a6.jpg");
+    background-size: cover;
+}
+.photoArtist2 {
+    background-image: url("../image/R-14321718-1574594261-9977.jpeg.jpg");
+    background-size: cover;
+}
+.playNow {
+    position: absolute;
+    padding-top: 135px;
+    padding-left: 25px;
+}
+.playNow a {
+    color: #1dc157;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.playNow a:hover {
+    color: #19ce5e;
+}
+.inf  {
+    display: flex;
+    padding-bottom: 60px;
+}
+.inf div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 25px;
+    padding-top: 0px;
+    flex-basis: 50%;
+}
+.textLink {
+    color: #1dc157;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.textLink2 {
+    color: #1dc157;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.more {
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.more h2 {
+    padding-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 80px;
+}
+div p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: .5em 0 1em
+}
+.links {
+    background-color: black;
+    padding-left: 350px;
+    padding-right: 350px;
+    color: #eeeeee;
+    display: flex;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.fLogoD, .fMenu, .fSocialLogo{
+    display: flex;
+}
+.fLogo{
+    width: 140px;
+    height: 50px;
+    padding-left: 30px;
+    margin-top: 77px;
+}
+.fMenu {
+    margin-top: 52px;
+}
+.company,.communities,.usefulLinks{
+    display: flex;
+    flex-direction: column;
+    color: #889496;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 900;
+    margin: 45px;
+    letter-spacing: 1px;
+}
+.company a,.communities a,.usefulLinks a{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 20px;
+    letter-spacing: 0px;
+}
+.company a:hover,.communities a:hover,.usefulLinks a:hover{
+    color: #1dc157;
+}
+.fSocialLogo{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.round{
+    /*background-color: rgba(255, 255, 255, 0.5);*/
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    display: inline-flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.filter:hover{
+    filter: invert(52%) sepia(91%) saturate(391%) hue-rotate(89deg) brightness(96%) contrast(97%);
+}
+footer {
+    background-color: black;
+    padding-top: 50px;
+    padding-left: 375px;
+}
+.legal{
+    display: inline-flex;
+    position: relative;
+    padding-bottom: 50px;
+}
+.legal a,.license{
+    color:#889496 ;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+.flag{
+    padding-left: 1010px;
+    color:#889496 ;
+    display: flex;
+}
+.flag a {
+    font-size: 12px;
+    font-weight: 400;
+    color:#889496 ;
+    text-decoration: none;
+}
+.imflag{
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+.license{
+    margin-left: 600px;
+}
+.legal a:hover,.flag a:hover{
+    color: #1dc157;
+}
