@@ -79,7 +79,7 @@ h3 {
     color: #2d46b9;
 }
 .profilePhoto {
-    background-image: url(../image/photo_2020-01-06_14-10-35.jpg);
+    background-image: url(image/photo_2020-01-06_14-10-35.jpg);
     background-size: cover;
     border-radius: 100px;
     height: 20px;
@@ -87,7 +87,7 @@ h3 {
 }
 .main {
     height:800px ;
-    background: url(../image/gradientyy.jpg) no-repeat  ;
+    background: url(image/gradientyy.jpg) no-repeat  ;
     background-size: cover;
     position: relative;
 }
@@ -160,7 +160,7 @@ h3 {
     background-color: rgba(0, 0, 0, 0.47);
 }
 .tAlbum1{
-    background-image: url("../image/NormanFuckingRockwell_Artwork.jpg");
+    background-image: url("image/NormanFuckingRockwell_Artwork.jpg");
     background-size: cover;
 }
 .overl {
@@ -196,23 +196,23 @@ h3 {
     opacity: 1;
 }
 .tAlbum2{
-    background-image: url("../image/11377248_1060854280611036_7596316613024008793_n-1-696x696.jpg");
+    background-image: url("image/11377248_1060854280611036_7596316613024008793_n-1-696x696.jpg");
     background-size: cover;
 }
 .tAlbum3{
-    background-image: url("../image/R-14970187-1586028941-7305.jpeg.jpg");
+    background-image: url("image/R-14970187-1586028941-7305.jpeg.jpg");
     background-size: cover;
 }
 .tAlbum4{
-    background-image: url("../image/kodaline.jpg");
+    background-image: url("image/kodaline.jpg");
     background-size: cover;
 }
 .tAlbum5{
-    background-image: url("../image/neib.jpg");
+    background-image: url("image/neib.jpg");
     background-size: cover;
 }
 .tAlbum6{
-    background-image: url("../image/hoover.jpg");
+    background-image: url("image/hoover.jpg");
     background-size: cover;
 }
 .icon {
@@ -300,11 +300,11 @@ h3 {
     z-index: 1;
 }
 .photoArtist{
-    background-image: url("../image/1574563131_a751e0b304955efe5fe73c8d46c761a6.jpg");
+    background-image: url("image/1574563131_a751e0b304955efe5fe73c8d46c761a6.jpg");
     background-size: cover;
 }
 .photoArtist2 {
-    background-image: url("../image/R-14321718-1574594261-9977.jpeg.jpg");
+    background-image: url("image/R-14321718-1574594261-9977.jpeg.jpg");
     background-size: cover;
 }
 .playNow {

@@ -13,6 +13,9 @@
     <list default="true" id="e55a8978-5df6-4b57-9630-a9f6b8d0c42b" name="Default Changelist" comment="5">
       <change beforePath="$PROJECT_DIR$/../NewsSite" beforeDir="false" afterPath="$PROJECT_DIR$/../NewsSite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SWeb-Site" beforeDir="false" afterPath="$PROJECT_DIR$/../SWeb-Site" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Spotify.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Spotify.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../site-react" beforeDir="false" afterPath="$PROJECT_DIR$/../site-react" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +46,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\web-projects\Spotify" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\web-projects\Spotify" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -56,7 +62,7 @@
       <workItem from="1612172453849" duration="679000" />
       <workItem from="1612173360981" duration="1620000" />
       <workItem from="1625472282799" duration="662000" />
-      <workItem from="1625472963435" duration="4983000" />
+      <workItem from="1625472963435" duration="6771000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1612172731742</created>
@@ -79,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625474171438</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="5">
+      <created>1625478004540</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625478004540</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
