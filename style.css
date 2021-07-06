@@ -152,12 +152,13 @@ h3 {
     flex-wrap: wrap;
     width: 1000px;
 }
-.tAlbum1,.tAlbum2,.tAlbum3,.tAlbum4,.tAlbum5,.tAlbum6 {
+[class^="tAlbum"] {
     width: 240px;
     height: 240px;
     display: flex;
     margin: 7px;
     background-color: rgba(0, 0, 0, 0.47);
+    background-size: cover;
 }
 .tAlbum1{
     background-image: url("image/NormanFuckingRockwell_Artwork.jpg");
@@ -188,34 +189,29 @@ h3 {
     font-weight: 400;
     color:  #919496;
 }
-.tAlbum1:hover .overl, .tAlbum2:hover .overl, .tAlbum3:hover .overl, .tAlbum4:hover .overl, .tAlbum5:hover .overl, .tAlbum6:hover .overl{
+[class^="tAlbum"]:hover .overl {
     transition: 0.5s;
     background-color: rgba(0, 0, 0, 0.8);
 }
-.tAlbum1:hover .overlText, .tAlbum2:hover .overlText, .tAlbum3:hover .overlText, .tAlbum4:hover .overlText,.tAlbum5:hover .overlText,.tAlbum6:hover .overlText{
+[class^="tAlbum"]:hover .overlText{
     opacity: 1;
 }
 .tAlbum2{
     background-image: url("image/11377248_1060854280611036_7596316613024008793_n-1-696x696.jpg");
-    background-size: cover;
 }
 .tAlbum3{
     background-image: url("image/R-14970187-1586028941-7305.jpeg.jpg");
-    background-size: cover;
 }
 .tAlbum4{
     background-image: url("image/kodaline.jpg");
-    background-size: cover;
 }
 .tAlbum5{
     background-image: url("image/neib.jpg");
-    background-size: cover;
 }
 .tAlbum6{
     background-image: url("image/hoover.jpg");
-    background-size: cover;
 }
-.icon {
+.downIcon {
     animation-name:logoPlayAnimation;
     animation-timing-function: linear;
     animation-duration: 1.5s;
@@ -237,15 +233,7 @@ h3 {
     display: flex;
     justify-content: center;
 }
-.box1 {
-    display: flex;
-    width: 490px;
-    height: 240px;
-    background-color: rgba(255, 255, 255, 0.05);
-    margin: 50px;
-    position: relative;
-}
-.box2 {
+.box1,.box2 {
     display: flex;
     width: 490px;
     height: 240px;
@@ -294,6 +282,7 @@ h3 {
     width: 250px;
     height: 250px;
     background-color: rgba(109, 0, 128, 0.34);
+    background-size: cover;
     position: absolute;
     left: 254px;
     bottom: 23px;
@@ -301,11 +290,9 @@ h3 {
 }
 .photoArtist{
     background-image: url("image/1574563131_a751e0b304955efe5fe73c8d46c761a6.jpg");
-    background-size: cover;
 }
 .photoArtist2 {
     background-image: url("image/R-14321718-1574594261-9977.jpeg.jpg");
-    background-size: cover;
 }
 .playNow {
     position: absolute;
@@ -416,7 +403,6 @@ div p {
     margin-left: 150px;
 }
 .round{
-    /*background-color: rgba(255, 255, 255, 0.5);*/
     background-color: rgba(255, 255, 255, 0.1);
     width: 55px;
     height: 55px;
