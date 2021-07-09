@@ -29,11 +29,17 @@ body {
     font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
     font-style: normal;
 }
+
 h2 {
     font-size: 48px;
     line-height: 58px;
     font-weight: 900;
     letter-spacing: -1px;
+}
+@media (max-width: 628px){
+    h2{
+        font-size: 36px;
+    }
 }
 h3 {
     font-size: 24px;
@@ -41,6 +47,7 @@ h3 {
     font-weight: 900;
     margin: .5em 0 1em
 }
+
 .header {
     background-color: rgba(0,0,0,0.5);
     position: fixed;
@@ -49,21 +56,24 @@ h3 {
     display: flex;
     z-index: 3;
 }
+.commonHeader {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 1180px){
+    .commonHeader{
+        width: unset;
+    }
+}
 .logo {
     width: 140px;
     height: 50px;
-    position: absolute;
-    padding-top: 8px;
-    padding-left: 190px;
-    margin: 0;
-    z-index: 3;
 }
 .nav {
-    height: 80px;
-    padding-right: 20px;
-    padding-left: 1100px;
     display: flex;
-    flex-direction: row;
     align-items: center;
 }
  .nav a , .nav div {
@@ -85,20 +95,45 @@ h3 {
     height: 20px;
     width: 20px;
 }
+@media (max-width: 628px){
+    .premiumLink,.helpLink,.downloadLink{
+        display: none;
+    }
+}
 .main {
-    height:800px ;
     background: url(image/gradientyy.jpg) no-repeat  ;
-    background-size: cover;
-    position: relative;
+    background-size: 100% 100%;
+    width: 100%;
 }
 .titleMain {
-    display: flex;
     padding-top: 145px;
+
+}
+.commonMain {
+    display: flex;
     justify-content: center;
-    padding-left: 200px;
+    align-items: center
+}
+
+@media (max-width: 1180px) {
+    .commonMain {
+        flex-direction: column;
+        width: 60%;
+        margin: 0 auto;
+    }
 }
 .titleText {
     width: 370px;
+}
+@media (max-width: 1180px) {
+    .titleText {
+        padding-bottom: 50px;
+    }
+}
+@media (max-width: 420px){
+    .titleText {
+        width: unset;
+    }
 }
 .recently {
     margin-top: 40px;
@@ -150,7 +185,23 @@ h3 {
 .titleAlbum {
     display: flex;
     flex-wrap: wrap;
-    width: 1000px;
+    max-width: 765px;
+    justify-content: center;
+}
+
+/*@media (max-width: 1724px) {*/
+/*    .titleAlbum {*/
+/*    }*/
+/*}*/
+@media (max-width: 1180px) {
+    .titleAlbum {
+        width: 620px;
+    }
+}
+@media (max-width: 628px) {
+    .titleAlbum {
+        width: 340px;
+    }
 }
 [class^="tAlbum"] {
     width: 240px;
@@ -211,17 +262,24 @@ h3 {
 .tAlbum6{
     background-image: url("image/hoover.jpg");
 }
+
 .downIcon {
     animation-name:logoPlayAnimation;
     animation-timing-function: linear;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
-    padding-top: 30px;
-    padding-left: 950px;
+    padding: 2% 0 2% ;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 .music{
-    height:600px ;
     background: linear-gradient( to right , #2c5d91,#46407a, #562f6c);
+    background-size: 100% 100%;
+}
+.container {
+    margin: 0 auto;
+    width: 80%;
 }
 .title {
     display: flex;
@@ -232,6 +290,8 @@ h3 {
 .boxes{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
 }
 .box1,.box2 {
     display: flex;
@@ -283,7 +343,7 @@ h3 {
     height: 250px;
     background-color: rgba(109, 0, 128, 0.34);
     background-size: cover;
-    position: absolute;
+    position: relative;
     left: 254px;
     bottom: 23px;
     z-index: 1;
@@ -298,6 +358,7 @@ h3 {
     position: absolute;
     padding-top: 135px;
     padding-left: 25px;
+    z-index: 1;
 }
 .playNow a {
     color: #1dc157;
@@ -310,9 +371,31 @@ h3 {
 .playNow a:hover {
     color: #19ce5e;
 }
+@media (max-width: 628px) {
+    .Top{
+        top: -20px;
+        left: -30px;
+    }
+    .labelName{
+        top: 200px;
+    }
+    .photoArtist,.photoArtist2{
+        left: 25px;
+        bottom: 0;
+        top: 23px;
+    }
+    .playNow{
+        padding-top: 280px;
+    }
+}
 .inf  {
     display: flex;
     padding-bottom: 60px;
+}
+@media (max-width: 1180px) {
+    .inf {
+        flex-wrap: wrap;
+    }
 }
 .inf div {
     display: flex;
@@ -321,6 +404,11 @@ h3 {
     margin: 25px;
     padding-top: 0px;
     flex-basis: 50%;
+}
+@media (max-width: 628px){
+    .inf div{
+        flex-basis: unset;
+    }
 }
 .textLink {
     color: #1dc157;
@@ -339,9 +427,15 @@ h3 {
     font-weight: 400;
 }
 .more {
-    padding-left: 350px;
-    padding-right: 350px;
+    max-width: 60%;
+    margin: 0 auto;
 }
+@media (max-width: 1180px) {
+    .more {
+        max-width: 80%;
+    }
+}
+
 .more h2 {
     padding-left: 20px;
     margin-bottom: 0px;
@@ -355,10 +449,11 @@ div p {
 }
 .links {
     background-color: black;
-    padding-left: 350px;
-    padding-right: 350px;
+    background-size: 100% 100%;
+    justify-content: center;
     color: #eeeeee;
     display: flex;
+
 }
 .footer{
     display: flex;
@@ -366,6 +461,18 @@ div p {
 }
 .fLogoD, .fMenu, .fSocialLogo{
     display: flex;
+}
+@media (max-width: 1180px) {
+    .links{
+        justify-content: flex-start;
+    }
+    .fLogoD, .fMenu, .fSocialLogo {
+        flex-direction: column;
+        display: block;
+    }
+    .footer{
+        flex-direction: column;
+    }
 }
 .fLogo{
     width: 140px;
@@ -400,7 +507,11 @@ div p {
 }
 .fSocialLogo{
     margin-top: 100px;
-    margin-left: 150px;
+}
+@media (max-width: 1180px) {
+    .fSocialLogo{
+        margin: 20px;
+    }
 }
 .round{
     background-color: rgba(255, 255, 255, 0.1);
@@ -417,15 +528,27 @@ div p {
 }
 footer {
     background-color: black;
-    padding-top: 50px;
-    padding-left: 375px;
+}
+.commonFooter{
+    margin: 0 auto;
+    width: 80%;
+}
+.legalLicense{
+    display: flex;
+    justify-content: space-between
+}
+@media (max-width: 420px){
+    .legalLicense{
+        display: block;
+    }
 }
 .legal{
     display: inline-flex;
-    position: relative;
-    padding-bottom: 50px;
 }
-.legal a,.license{
+.license{
+    justify-content: flex-end;
+}
+.legalLicense a,.license{
     color:#889496 ;
     text-decoration: none;
     margin: 10px;
@@ -433,8 +556,11 @@ footer {
     line-height: 16px;
     font-weight: 400;
 }
+.legalLicense a:hover,.flag a:hover{
+    color: #1dc157;
+}
 .flag{
-    padding-left: 1010px;
+    justify-content: flex-end;
     color:#889496 ;
     display: flex;
 }
@@ -448,9 +574,4 @@ footer {
     margin-bottom: 5px;
     margin-left: 15px;
 }
-.license{
-    margin-left: 600px;
-}
-.legal a:hover,.flag a:hover{
-    color: #1dc157;
-}
+
