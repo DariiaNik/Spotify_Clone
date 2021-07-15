@@ -20,14 +20,22 @@
 }
 
 @keyframes logoPlayAnimation {
-    0%   { transform: translateY(0); }
-    50%  { transform: translateY(-8px); }
-    100% { transform: translateY(0); }
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
+
 body {
     margin: 0;
     font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
     font-style: normal;
+    min-width: 370px;
 }
 
 h2 {
@@ -36,11 +44,13 @@ h2 {
     font-weight: 900;
     letter-spacing: -1px;
 }
-@media (max-width: 628px){
-    h2{
+
+@media (max-width: 628px) {
+    h2 {
         font-size: 36px;
     }
 }
+
 h3 {
     font-size: 24px;
     line-height: 34px;
@@ -49,92 +59,107 @@ h3 {
 }
 
 .header {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     width: 100%;
     height: 80px;
     display: flex;
     z-index: 3;
 }
-.commonHeader {
+
+.common-header {
     margin: 0 auto;
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-@media (max-width: 1180px){
-    .commonHeader{
+
+@media (max-width: 1180px) {
+    .common-header {
         width: unset;
     }
 }
+
 .logo {
     width: 140px;
     height: 50px;
 }
+
 .nav {
     display: flex;
     align-items: center;
 }
- .nav a , .nav div {
-     text-align: center;
-     color: #eeeeee;
-     padding: 15px;
-     font-size: 16px;
-     line-height: 24px;
-     font-weight: 700;
-     text-decoration: none;
+
+.nav a, .nav div {
+    text-align: center;
+    color: #eeeeee;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-decoration: none;
 }
-.nav a:hover{
+
+.nav a:hover {
     color: #2d46b9;
 }
-.profilePhoto {
+
+.profile-photo {
     background-image: url(image/photo_2020-01-06_14-10-35.jpg);
     background-size: cover;
     border-radius: 100px;
     height: 20px;
     width: 20px;
 }
-@media (max-width: 628px){
-    .premiumLink,.helpLink,.downloadLink{
+
+@media (max-width: 628px) {
+    .premium-link, .help-link, .download-link {
         display: none;
     }
 }
+
 .main {
-    background: url(image/gradientyy.jpg) no-repeat  ;
+    background: url(image/gradientyy.jpg) no-repeat;
     background-size: 100% 100%;
     width: 100%;
 }
-.titleMain {
+
+.title-main {
     padding-top: 145px;
 
 }
-.commonMain {
+
+.common-main {
     display: flex;
     justify-content: center;
     align-items: center
 }
 
 @media (max-width: 1180px) {
-    .commonMain {
+    .common-main {
         flex-direction: column;
         width: 60%;
         margin: 0 auto;
     }
 }
-.titleText {
+
+.title-text {
     width: 370px;
 }
+
 @media (max-width: 1180px) {
-    .titleText {
+    .title-text {
         padding-bottom: 50px;
     }
 }
-@media (max-width: 420px){
-    .titleText {
+
+@media (max-width: 420px) {
+    .title-text {
         width: unset;
     }
 }
+
 .recently {
     margin-top: 40px;
     color: #eeeeee;
@@ -142,19 +167,22 @@ h3 {
     line-height: 18px;
     font-weight: 700;
 }
-.jump{
+
+.jump {
     color: #eeeeee;
     font-size: 80px;
     line-height: 92px;
     font-weight: 900;
 }
+
 .pick {
     color: #eeeeee;
     font-size: 24px;
     line-height: 34px;
     font-weight: 900;
 }
-.buttonPlay {
+
+.button-play {
     margin-top: 40px;
     width: 280px;
     height: 50px;
@@ -162,13 +190,15 @@ h3 {
     border-radius: 150px;
     text-align: center;
 }
-.buttonText{
+
+.button-text {
     height: 100%;
     display: flex;
     justify-content: center;
     padding-top: 15px;
 }
-.buttonText a{
+
+.button-text a {
     color: #eeeeee;
     font-size: 16px;
     line-height: 16px;
@@ -177,33 +207,33 @@ h3 {
     letter-spacing: 2px;
     height: 100%;
 }
-.buttonPlay:hover {
+
+.button-play:hover {
     background-color: #1cce5f;
     cursor: pointer;
     transition: 0.5s;
 }
-.titleAlbum {
+
+.title-album {
     display: flex;
     flex-wrap: wrap;
     max-width: 765px;
     justify-content: center;
 }
 
-/*@media (max-width: 1724px) {*/
-/*    .titleAlbum {*/
-/*    }*/
-/*}*/
 @media (max-width: 1180px) {
-    .titleAlbum {
+    .title-album {
         width: 620px;
     }
 }
+
 @media (max-width: 628px) {
-    .titleAlbum {
+    .title-album {
         width: 340px;
     }
 }
-[class^="tAlbum"] {
+
+[class^="album"] {
     width: 240px;
     height: 240px;
     display: flex;
@@ -211,17 +241,20 @@ h3 {
     background-color: rgba(0, 0, 0, 0.47);
     background-size: cover;
 }
-.tAlbum1{
+
+.album1 {
     background-image: url("image/NormanFuckingRockwell_Artwork.jpg");
     background-size: cover;
 }
-.overl {
+
+.overlay {
     background-color: rgba(0, 0, 0, 0);
     width: 100%;
     height: 100%;
     text-align: center;
 }
-.overlText {
+
+.overlay-text {
     color: white;
     font-size: 16px;
     line-height: 16px;
@@ -229,71 +262,85 @@ h3 {
     opacity: 0;
     padding-top: 60px;
 }
-.song{
+
+.overlay-song {
     font-size: 16px;
     line-height: 21px;
     font-weight: 400;
 }
-.artist{
+
+.overlay-artist {
     font-size: 14px;
     line-height: 15px;
     font-weight: 400;
-    color:  #919496;
+    color: #919496;
 }
-[class^="tAlbum"]:hover .overl {
+
+[class^="album"]:hover .overlay {
     transition: 0.5s;
     background-color: rgba(0, 0, 0, 0.8);
 }
-[class^="tAlbum"]:hover .overlText{
+
+[class^="album"]:hover .overlay-text {
     opacity: 1;
 }
-.tAlbum2{
+
+.album2 {
     background-image: url("image/11377248_1060854280611036_7596316613024008793_n-1-696x696.jpg");
 }
-.tAlbum3{
+
+.album3 {
     background-image: url("image/R-14970187-1586028941-7305.jpeg.jpg");
 }
-.tAlbum4{
+
+.album4 {
     background-image: url("image/kodaline.jpg");
 }
-.tAlbum5{
+
+.album5 {
     background-image: url("image/neib.jpg");
 }
-.tAlbum6{
+
+.album6 {
     background-image: url("image/hoover.jpg");
 }
 
-.downIcon {
-    animation-name:logoPlayAnimation;
+.down-icon {
+    animation-name: logoPlayAnimation;
     animation-timing-function: linear;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
-    padding: 2% 0 2% ;
+    padding: 2% 0 2%;
     display: flex;
     justify-content: center;
     align-content: center;
 }
-.music{
-    background: linear-gradient( to right , #2c5d91,#46407a, #562f6c);
+
+.music {
+    background: linear-gradient(to right, #2c5d91, #46407a, #562f6c);
     background-size: 100% 100%;
 }
+
 .container {
     margin: 0 auto;
     width: 80%;
 }
+
 .title {
     display: flex;
     color: #eeeeee;
     justify-content: center;
     padding-top: 2.5em;
 }
-.boxes{
+
+.boxes {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding-bottom: 60px;
 }
-.box1,.box2 {
+
+.box1, .box2 {
     display: flex;
     width: 490px;
     height: 240px;
@@ -301,7 +348,8 @@ h3 {
     margin: 50px;
     position: relative;
 }
-.Top {
+
+.top {
     width: 85px;
     height: 25px;
     background-color: rgba(30, 50, 100, 0.27);
@@ -310,8 +358,9 @@ h3 {
     left: -10px;
     margin: auto 0;
 }
-.tA ,.tT {
-    color:#ffffff;
+
+.top-artist, .top-track {
+    color: #ffffff;
     font-size: 12px;
     line-height: 18px;
     font-weight: 400;
@@ -319,7 +368,8 @@ h3 {
     margin-left: 15px;
     margin-top: 5px;
 }
-.labelName{
+
+.label-name {
     display: flex;
     width: 295px;
     height: auto;
@@ -330,7 +380,8 @@ h3 {
     top: 65px;
     z-index: 2;
 }
-.Artist,.Artist2 {
+
+.artist, .artist2 {
     font-size: 24px;
     line-height: 34px;
     font-weight: 900;
@@ -338,7 +389,8 @@ h3 {
     margin: auto 0;
     padding-left: 30px;
 }
-.photoArtist,.photoArtist2 {
+
+.photo-artist, .photo-artist2 {
     width: 250px;
     height: 250px;
     background-color: rgba(109, 0, 128, 0.34);
@@ -348,19 +400,23 @@ h3 {
     bottom: 23px;
     z-index: 1;
 }
-.photoArtist{
+
+.photo-artist {
     background-image: url("image/1574563131_a751e0b304955efe5fe73c8d46c761a6.jpg");
 }
-.photoArtist2 {
+
+.photo-artist2 {
     background-image: url("image/R-14321718-1574594261-9977.jpeg.jpg");
 }
-.playNow {
+
+.play-now {
     position: absolute;
     padding-top: 135px;
     padding-left: 25px;
     z-index: 1;
 }
-.playNow a {
+
+.play-now a {
     color: #1dc157;
     font-size: 12px;
     line-height: 12px;
@@ -368,35 +424,43 @@ h3 {
     letter-spacing: 2px;
     text-decoration: none;
 }
-.playNow a:hover {
+
+.play-now a:hover {
     color: #19ce5e;
 }
+
 @media (max-width: 628px) {
-    .Top{
+    .top {
         top: -20px;
         left: -30px;
     }
-    .labelName{
+
+    .label-name {
         top: 200px;
     }
-    .photoArtist,.photoArtist2{
+
+    .photo-artist, .photo-artist2 {
         left: 25px;
         bottom: 0;
         top: 23px;
     }
-    .playNow{
+
+    .play-now {
         padding-top: 280px;
     }
 }
-.inf  {
+
+.inf {
     display: flex;
     padding-bottom: 60px;
 }
+
 @media (max-width: 1180px) {
     .inf {
         flex-wrap: wrap;
     }
 }
+
 .inf div {
     display: flex;
     flex-direction: column;
@@ -405,12 +469,14 @@ h3 {
     padding-top: 0px;
     flex-basis: 50%;
 }
-@media (max-width: 628px){
-    .inf div{
+
+@media (max-width: 628px) {
+    .inf div {
         flex-basis: unset;
     }
 }
-.textLink {
+
+.text-link {
     color: #1dc157;
     text-decoration: none;
     text-transform: uppercase;
@@ -419,17 +485,20 @@ h3 {
     font-weight: 700;
     letter-spacing: 2px;
 }
-.textLink2 {
+
+.text-link2 {
     color: #1dc157;
     text-decoration: none;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
 }
+
 .more {
     max-width: 60%;
     margin: 0 auto;
 }
+
 @media (max-width: 1180px) {
     .more {
         max-width: 80%;
@@ -441,12 +510,14 @@ h3 {
     margin-bottom: 0px;
     margin-top: 80px;
 }
+
 div p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     margin: .5em 0 1em
 }
+
 .links {
     background-color: black;
     background-size: 100% 100%;
@@ -455,35 +526,43 @@ div p {
     display: flex;
 
 }
-.footer{
+
+.links-common {
     display: flex;
     justify-content: center;
 }
-.fLogoD, .fMenu, .fSocialLogo{
+
+.links-logo-spotify, .links-menu, .links-social-logo {
     display: flex;
 }
+
 @media (max-width: 1180px) {
-    .links{
+    .links {
         justify-content: flex-start;
     }
-    .fLogoD, .fMenu, .fSocialLogo {
+
+    .links-logo-spotify, .links-menu, .links-social-logo {
         flex-direction: column;
         display: block;
     }
-    .footer{
+
+    .links-common {
         flex-direction: column;
     }
 }
-.fLogo{
+
+.footer-logo {
     width: 140px;
     height: 50px;
     padding-left: 30px;
     margin-top: 77px;
 }
-.fMenu {
+
+.links-menu {
     margin-top: 52px;
 }
-.company,.communities,.usefulLinks{
+
+.company, .communities, .useful-links {
     display: flex;
     flex-direction: column;
     color: #889496;
@@ -493,7 +572,8 @@ div p {
     margin: 45px;
     letter-spacing: 1px;
 }
-.company a,.communities a,.usefulLinks a{
+
+.company a, .communities a, .useful-links a {
     color: #ffffff;
     font-size: 16px;
     line-height: 24px;
@@ -502,18 +582,22 @@ div p {
     margin-top: 20px;
     letter-spacing: 0px;
 }
-.company a:hover,.communities a:hover,.usefulLinks a:hover{
+
+.company a:hover, .communities a:hover, .useful-links a:hover {
     color: #1dc157;
 }
-.fSocialLogo{
+
+.links-social-logo {
     margin-top: 100px;
 }
+
 @media (max-width: 1180px) {
-    .fSocialLogo{
+    .links-social-logo {
         margin: 20px;
     }
 }
-.round{
+
+.round {
     background-color: rgba(255, 255, 255, 0.1);
     width: 55px;
     height: 55px;
@@ -523,55 +607,66 @@ div p {
     justify-content: center;
     align-items: center;
 }
-.filter:hover{
+
+.filter:hover {
     filter: invert(52%) sepia(91%) saturate(391%) hue-rotate(89deg) brightness(96%) contrast(97%);
 }
+
 footer {
     background-color: black;
 }
-.commonFooter{
+
+.common-footer {
     margin: 0 auto;
     width: 80%;
 }
-.legalLicense{
+
+.legal-license {
     display: flex;
     justify-content: space-between
 }
-@media (max-width: 420px){
-    .legalLicense{
+
+@media (max-width: 420px) {
+    .legal-license {
         display: block;
     }
 }
-.legal{
+
+.legal {
     display: inline-flex;
 }
-.license{
+
+.license {
     justify-content: flex-end;
 }
-.legalLicense a,.license{
-    color:#889496 ;
+
+.legal-license a, .license {
+    color: #889496;
     text-decoration: none;
     margin: 10px;
     font-size: 12px;
     line-height: 16px;
     font-weight: 400;
 }
-.legalLicense a:hover,.flag a:hover{
+
+.legal-license a:hover, .flag a:hover {
     color: #1dc157;
 }
-.flag{
+
+.flag {
     justify-content: flex-end;
-    color:#889496 ;
+    color: #889496;
     display: flex;
 }
+
 .flag a {
     font-size: 12px;
     font-weight: 400;
-    color:#889496 ;
+    color: #889496;
     text-decoration: none;
 }
-.imflag{
+
+.image-flag {
     margin-bottom: 5px;
     margin-left: 15px;
 }
-

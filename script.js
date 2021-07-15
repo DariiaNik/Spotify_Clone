@@ -1,9 +1,8 @@
-
-let btn = document.querySelector('.downIconImage')
+let btn = document.querySelector('.down-icon-image')
 let viewSection = document.getElementById('box')
 
 function scroll() {
-    viewSection.scrollIntoView({block:"center" , behavior: "smooth"})
+    viewSection.scrollIntoView({block: "center", behavior: "smooth"})
 }
 
-btn.addEventListener('click' , scroll)
+btn.addEventListener('click', scroll)
