@@ -1,4 +1,4 @@
-# Social Network Pet Project
+# Spotify clone Pet Project
 
 ![](gif/FIFIYKUTG8.gif)
 
