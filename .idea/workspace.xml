@@ -10,14 +10,50 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e55a8978-5df6-4b57-9630-a9f6b8d0c42b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="e55a8978-5df6-4b57-9630-a9f6b8d0c42b" name="Default Changelist" comment="test">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitbucket-pipelines.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/11377248_1060854280611036_7596316613024008793_n-1-696x696.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/11377248_1060854280611036_7596316613024008793_n-1-696x696.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1574563131_a751e0b304955efe5fe73c8d46c761a6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/1574563131_a751e0b304955efe5fe73c8d46c761a6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/444444.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/444444.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/749b8b572fc6a02a830f55eacb270b13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/749b8b572fc6a02a830f55eacb270b13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Labrinth.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/Labrinth.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/NormanFuckingRockwell_Artwork.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/NormanFuckingRockwell_Artwork.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/R-14321718-1574594261-9977.jpeg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/R-14321718-1574594261-9977.jpeg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/R-14970187-1586028941-7305.jpeg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/R-14970187-1586028941-7305.jpeg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/_53876-93822.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/_53876-93822.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/chat.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/chat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/doja.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/doja.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/euphotia.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/euphotia.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/gradient-svetlo-fioletovyy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/gradient-svetlo-fioletovyy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/gradientyy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/gradientyy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/hoover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/hoover.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/hotpng.com.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/hotpng.com.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/hotpntttg.com.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/hotpntttg.com.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icons8-facebook-f-24.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/icons8-facebook-f-24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icons8-instagram-26.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/icons8-instagram-26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icons8-play-в-круге-20.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/icons8-play-в-круге-20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icons8-play-в-круге-24.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/icons8-play-в-круге-24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icons8-play-в-круге-36.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/icons8-play-в-круге-36.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icons8-play-в-круге-40.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/icons8-play-в-круге-40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icons8-твиттер-26.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/icons8-твиттер-26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icons8-украина-24.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/icons8-украина-24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icons8-украина-48.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/icons8-украина-48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icons8-шеврон-вниз-в-круге-35.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/icons8-шеврон-вниз-в-круге-35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icons8-шеврон-вниз-в-круге-50 (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/icons8-шеврон-вниз-в-круге-50 (1).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icons8-шеврон-вниз-в-круге-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/icons8-шеврон-вниз-в-круге-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/kisspng-logo-spotify-issuu-soundcloud-spotify-logo-5b2a6589937ea5.8739811215295051616042.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/kisspng-logo-spotify-issuu-soundcloud-spotify-logo-5b2a6589937ea5.8739811215295051616042.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/kodaline.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/kodaline.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/neib.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/neib.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/newlo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/newlo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/noise.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/noise.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/photo_2020-01-06_14-10-35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/photo_2020-01-06_14-10-35.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/pngwing.com.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/pngwing.com.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/spotify-link-at-3x-vector-spotify-logo-11562970359ymihxvag2v.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/spotify-link-at-3x-vector-spotify-logo-11562970359ymihxvag2v.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/toppng.com-spotify-link-at-3x-vector-spotify-logo-435x375.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/toppng.com-spotify-link-at-3x-vector-spotify-logo-435x375.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +83,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../web-projects/Spotify" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WebStorm projects\Pet Projects\Spotify_Clone" />
       <recent name="C:\web-projects\Spotify" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\WebStorm projects\Pet Projects\Spotify_Clone\gif" />
+      <recent name="C:\WebStorm projects\Pet Projects\Spotify_Clone\src" />
       <recent name="C:\web-projects\Spotify" />
     </key>
   </component>
@@ -79,6 +118,8 @@
       <workItem from="1625818306860" duration="9166000" />
       <workItem from="1626178864629" duration="136000" />
       <workItem from="1626334488938" duration="2410000" />
+      <workItem from="1627547161681" duration="361000" />
+      <workItem from="1628276704842" duration="769000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1612172731742</created>
